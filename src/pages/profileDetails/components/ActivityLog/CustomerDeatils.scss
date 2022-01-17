@@ -1,0 +1,331 @@
+$theme:red;
+
+.detailInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 35px;
+}
+.customerDeatils{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px solid #8080803b;
+    padding-bottom: 5px;
+}
+.detailCustom{
+    font-weight: 600;
+    color: black;
+}
+.customerLogo{
+    width: 25px;
+    height: 25px;
+}
+.customerText{
+    padding-left: 8px;
+}
+.right{
+    border: 2px #4A4A4A;
+    background: #fff;
+    border-radius: 5px;
+}
+.customerName{
+    display: flex;
+    padding-left: 18px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.labelName{
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+
+}
+
+.entityValue {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.Name{
+    margin: 0;
+   /* padding-inline: 20px; */
+   padding-left: 60px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.id{
+    margin: 0;
+   /* padding-inline: 20px; */
+   padding-left: 80px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.gender{
+    margin: 0;
+    /* padding-inline: 20px; */
+    padding-left: 82px;
+     font-size: 15px;
+     font-weight: 700;
+     margin-left: 32px;
+}
+.dob{
+    margin: 0;
+    /* padding-inline: 20px; */
+    padding-left: 81px;
+     font-size: 15px;
+     font-weight: 700;
+}
+.mobileNo{
+    margin: 0;
+    /* padding-inline: 20px; */
+    padding-left: 65px;
+     font-size: 15px;
+     font-weight: 700;
+}
+.policyName{
+    display: flex;
+    padding-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+.policyDetails{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding: 7px 15px;
+    border-bottom: 1px solid #8080803b;
+    border-top:1px solid #8080803b ;
+}
+.term{
+    margin-left: 50px;
+}
+.CustomApply{
+    padding-left: 66px;
+    margin-right: 106px;
+}
+.cost{
+    padding-left: 48px;
+}
+.emailId{
+    margin: 0;
+    /* padding-inline: 20px; */
+    padding-left: 105px;
+     font-size: 15px;
+     font-weight: 700;
+}
+.Custom{
+    margin-right: 109px;
+    padding-left: 88px;
+}
+.categoryBoxes{
+    display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.filter{
+    width: 90px;
+    height: 30px;
+    padding: 5px 6px;
+    border: 2px #4A4A4A;
+    border-radius: 4px;
+}
+.categoryBox{
+  padding: 10px 10px;
+}
+.date{
+    width: 115px;
+    height: 38px;
+    padding: 5px 6px;
+    border: 2px #4A4A4A;
+    border-radius: 4px;
+}
+.customerLogo-{
+    width: 36px;
+    height: 28px;
+}
+.textQuote{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dateOfInsurance{
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.listOfinsurance{
+    margin-bottom: 12px;
+    // margin-left: 15px;
+    padding: 3px 30px;
+}
+.insuranceHistory{
+    border: 2px #4A4A4A;
+    background: #fff;
+    border-radius: 3px;
+}
+.active{
+    background: #f1eef7;
+}
+.generatedInsurance{
+    padding: 30px 0px;
+    margin: 0;
+    border-radius: 5px;
+    list-style: none;
+}
+.chat-opener{
+    position: fixed;
+    z-index: 20;
+    bottom: 48px;
+    right: 48px;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background: #59329d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.LogoImg{
+    width: 30px;
+    height: 30px;
+}
+.filterDropdown{
+    background: #fff;
+    top: 332px;
+    width: 231px;
+    border: 2px solid;
+    position: absolute;
+}
+.itemsList{
+   padding: 0;
+    margin-left: 10px;
+    padding-top: 24px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.items{
+    padding-top: 10px;
+}
+.sortBy{
+    padding-top: 18px;
+    font-weight: 700;
+}
+.newest{
+    font-weight: 700;
+}
+// .generatedInsurance ::before{
+//     content: "";
+//     background: #59329d;
+//     display: block;
+//     height: 10px ;
+//     width: 20px;
+// }
+.progressBarImg{
+    width: 19px;
+    height: 18px;
+}
+.progressBar{
+    display: flex;
+}
+// .generatedInsurance ::after{
+  
+//     content: '';
+//     width: 50px;
+//     height: 10px;
+//     display: flex;
+//     // position: absolute;
+//     z-index: 10;
+//     border: 0;
+//     background-color: grey;
+// }
+
+#timeline-container {
+    background: #fff;
+    border: 2px #4A4A4A;
+    // background: linear-gradient(
+    //   171deg,
+    //   rgba(0, 17, 46, 1) 0%,
+    //   rgba(29, 21, 148, 1) 100%
+    // );
+    overflow: auto;
+    // padding: 60px 0;
+  
+    .inner-container {
+      margin: 0 auto;
+  
+      .heading {
+        text-align: center;
+        font-family: var(--font-family-1);
+        font-weight: 700;
+        font-size: 3rem;
+        color: white;
+        margin-top: 0;
+      }
+    }
+  }
+  
+  .timeline {
+    margin: 0 auto;
+   
+    // padding: 30px 45px;
+    // position: relative;
+    // left: 120px;
+    // width: 80%;
+    // max-width: 900px;
+    // margin-top: 16px;
+    // margin-left: 5%;
+  }
+  
+  .timeline-item {
+    color: black;
+    font-family: var(--font-family-2);
+    // text-align: center;
+    font-size: 1.4rem;
+    padding: 12px 30px;
+    border-left: 4px solid#59329d;
+    position: relative;
+    list-style-type: none;
+   
+  
+    &::after {
+      content: attr(data-date);
+      position: absolute;
+      right: calc(var(--item-width) + 40px);
+      top: 16px;
+      float: right;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+  
+    &::before {
+      content: "";
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      background-color:#59329d;
+      position: absolute;
+      left: -10px;
+      top: 21px;
+    //   background-image: $theme;
+    }
+  
+    &:last-child {
+      border-bottom: none;
+    }
+  }

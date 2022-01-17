@@ -1,0 +1,15 @@
+ .headerPrimary{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    a {
+        margin-bottom: 10px;
+    }
+}

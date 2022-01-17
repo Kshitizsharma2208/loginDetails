@@ -1,0 +1,39 @@
+.sidebar{
+    background: #fff;
+    min-width: 250px;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+.sidebarContent{
+    position: fixed;
+}
+.sidebarItems{
+    padding: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.sidebarList{
+    display: flex;
+    align-items: center;
+    padding-bottom: 19px;
+    padding-left: 15px;
+    align-items: center;
+}
+.sidebarImg{
+    padding-left: 10px;
+    width: 21px;
+    height: 21px;
+    align-items: center;
+ 
+}
+.sidebarText{
+    padding-left: 13px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sidebarImgBox{
+    padding: 5px 3px;
+}

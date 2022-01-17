@@ -1,0 +1,160 @@
+ 
+
+.footer{
+    border: 2px solid #fff;
+    margin-top: 23px;
+    background: #fff;
+}
+.footerHeader{
+    display: flex;
+    padding: 10px 72px;
+}
+.notification{
+    margin-right: 21px;
+    background: #59329d;
+    color: white;
+    font-size: 19px;
+    font-weight: 900;
+    margin: 0 20px 0 0;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.alert2{
+    
+    font-size: 19px;
+    font-weight: 900;    
+    color: black;
+    padding: 4px 15px;
+    margin: 0 20px 0 0; 
+}
+.article{
+    padding: 0px 72px;
+}
+#switch{
+    height: 0;
+	width: 0;
+}
+#switch2{
+    height: 0;
+	width: 0;
+}
+#switch3{
+    height: 0;
+	width: 0;
+}
+#switch4{
+    height: 0;
+	width: 0;
+}
+#switch5{
+    height: 0;
+	width: 0;
+}
+#switch6{
+    height: 0;
+	width: 0;
+}
+#switch7{
+    height: 0;
+	width: 0;
+}
+#switch8{
+    height: 0;
+	width: 0;
+}
+#switch9{
+    height: 0;
+	width: 0;
+}
+.label{
+    cursor: pointer;
+	text-indent: -9999px;
+    width: 42px;
+    height: 23px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+    width: 16px;
+    height: 14px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+} 
+input:checked + label {
+	background: #bada55;
+}
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+.contentFooter{
+    display: flex;
+    padding: 0px 28px;
+}
+.buttonToogle{
+    padding: 0px 43px;
+}
+.comments{
+    /* margin-top: 10px; */
+    font-size: 19px;
+    font-weight: 900;
+    padding: 0;
+    margin: 14px 0px;
+}
+.commentsBottom{
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+.alertText2{
+    /* padding: 0 67px; */
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 28px;
+}
+.checkBoxes{
+    padding: 0 152px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.checkboxHolder{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: #59329d;
+}
+.boxComment{
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+    padding-left: 4px;
+    margin-right: 5px;
+}
+.chat-opener{
+    position: fixed;
+    z-index: 20;
+    bottom: 48px;
+    right: 48px;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background: #59329d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.LogoImg{
+    width: 30px;
+    height: 30px;
+}
