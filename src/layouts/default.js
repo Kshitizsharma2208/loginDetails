@@ -8,7 +8,7 @@ const DefaultLayout = (props) => {
       <Header />
       <div className="headerPrimary">
         <Sidebar />
-        {props.children}
+        <div className="body-container">{props.children}</div>
         <div class="chat-opener">
           <img className="LogoImg" src={chatLogo} alt="" />
         </div>

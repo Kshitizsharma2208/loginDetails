@@ -25,7 +25,8 @@ import App from './App';
 import Home from './pages/Home/Home';
 import About from './pages/About';
 import ProfileDetail from "./pages/profileDetails/profileDetails";
-import LoginSection from './pages/profileDetails/components/Login Page/LoginSection';
+// import LoginSection from './pages/profileDetails/components/Login Page/LoginSection';
+import FruitsCorner from './pages/fruitsCorner/fruitsCorner';
 
 import reportWebVitals from './reportWebVitals';
 import {
@@ -40,7 +41,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="profile" element={<ProfileDetail />} />
-        <Route path="notification" element={<LoginSection />} />
+        <Route path="fruitCorner" element={<FruitsCorner />} />
         <Route path="about" element={<About />} />
       </Routes>
     </BrowserRouter>

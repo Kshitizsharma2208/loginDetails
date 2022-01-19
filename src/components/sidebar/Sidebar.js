@@ -34,7 +34,8 @@ export default function sidebar() {
           <div className="sidebarImgBox">
           <img className="sidebarImg" src={policies} alt="" />
           </div>                     
-            <a className="sidebarText" href="">Policies</a>
+          <Link className="sidebarText" to="/fruitCorner">Fruit Corner</Link>
+            {/* <a className="sidebarText" href="">Policies</a> */}
           </li>
 
           <li className="sidebarList">                     

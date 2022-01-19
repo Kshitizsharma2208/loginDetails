@@ -1,113 +1,10 @@
-// body{
-//     background-color: #f6f8fb;
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
 
-// .header {
-//   display: flex;
-//   justify-content: space-between;
-//   padding: 12px 20px;
-//   background: #59329d;
-//   position: sticky;
-//   top: 0;
-//   z-index: 1;
-// }
 
-// .logo-container,
-// .right-side,
-// .headerImages {
-//   display: flex;
-//   align-items: center;
-// }
 
-// .logo-img {
-//   width: 32px;
-//   height: 32px;
-// }
-
-// .logo-name {
-//   padding-left: 10px;
-//   font-size: 16px;
-//   color: #fff;
-// }
-
-// .category {
-//   height: 34px;
-//   padding: 0px 8px;
-// }
-
-// .header-action-container {
-//   margin-left: 24px;
-// }
-
-// .header-action {
-//   width: 24px;
-//   height: 24px;
-// }
-
-.body-container {
-  display: flex;
+.landing {
   z-index: 0;
   position: relative;
 }
-
-// .sidebar {
-//   width: 200px;
-//   background: #fff;
-//   height: 100%;
-//   margin-right: 20px;
-//   padding: 15px 0;
-//   position: sticky;
-//   top: 55px;
-// }
-
-.landing {
-  width: calc(100% - 200px);
-  padding: 10px 40px;
-}
-
-// .sidebar-list {
-//   list-style-type: none;
-//   padding: 0;
-//   margin: 0;
-// }
-
-// .sidebar-action {
-//   padding: 12px  10px;
-//   font-size: 16px;
-//   border-left: 4px solid transparent;
-//   display: flex;
-//   align-items: center;
-//   color: #666;
-// }
-
-// .sidebar-action:hover,
-// .sidebar-action:nth-child(1) {
-//   background-color: #f1eef7;
-//   border-color: #59329d;
-//   color: #4a4a4a;
-//   cursor: pointer;
-// }
-
-// .sidebar-action img {
-//   width: 24px;
-//   height: 24px;
-//   margin-right: 12px;
-// }
-
-// .sidebar-action a {
-//   text-decoration: none;
-//   color: #666;
-//   font-weight: 500;
-// }
-
-// .sidebar-action:hover a,
-// .sidebar-action:nth-child(1) {
-//   color: #59329d;
-//   font-weight: 600;
-// }
 
 .section-container {
   display: flex;
@@ -122,13 +19,17 @@
   padding: 15px;
   border-radius: 4px;
   width: 33%;
-  margin-right: 20px;
+  // margin-right: 20px;
   height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
   padding-top: 0;
 }
+
+.middleContainer {
+  margin: 0 20px;
+} 
 
 .headingLeft {
   display: flex;

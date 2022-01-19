@@ -1,0 +1,86 @@
+.navbar {
+    width: 100%;
+    display: block;
+    background-color: white;   
+    float: right;
+
+    .logo- {
+        background-color: #bf4b1e;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        .searchItem {
+            display: flex;
+           
+            margin: 20px;
+            width: 60%;
+        }
+    }
+
+    .categorybar {
+        background-color: #dbb3b3;
+        
+        display: flex;
+        justify-content: center;
+        border: 2px solid #666464;
+
+        .categorybtn {
+            display: flex;
+           
+            justify-content: space-around;
+            margin-block: 5px;
+            
+            border: 2px solid #666464;
+
+            
+        }
+    }
+}
+
+.items {
+    margin-right: 35px;
+    float: right;
+    background-color: white;
+
+    .btn {
+        background-color: white;
+        color: black;
+        border: 2px solid #e7e7e7;
+      }
+    .alarmLogo {
+        float: right;
+        width: 26px;
+    }  
+    .cartLogo {
+        float: right;
+        width: 29px;
+        margin: 0px 13px;
+    }
+}
+
+.category {
+    width: 150px;
+}
+
+.search { 
+    width: 250px;
+  margin: 0px 3px;
+}
+
+.searchbtn {
+  width: 75px;
+  background-color: #45454f;
+  color: wheat;
+  cursor: pointer;
+}
+
+.textBtn {
+    border: none;
+    background-color: inherit;
+    padding: 6px 35px;
+    font-size: 20px;
+    cursor: pointer;   
+    color: rgb(3, 16, 30);
+}

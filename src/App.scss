@@ -2,6 +2,11 @@
     display: flex;
     padding: 0px;
     margin: 0px;
+}  
+
+.body-container {
+    width: calc(100% - 200px);
+    padding: 10px 40px;
 }
 
 .linkContainer{

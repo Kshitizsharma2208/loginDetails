@@ -22,6 +22,7 @@ function App() {
       <Link to="/home">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/profile">profile</Link>
+      <Link to="/fruitCorner">fruitsCorner</Link>
 
     </div>
   );

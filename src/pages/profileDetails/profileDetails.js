@@ -7,7 +7,6 @@ import CustomerDetails from "./components/ActivityLog/CustomerDetails";
 import Main from "./components/main/Main";
 import Alert from "./components/Alertpage/Alert";
 import LoginSection from "./components/Login Page/LoginSection";
-
 import './profileDetails.scss';
 
 function ProfileDetail() {
@@ -17,8 +16,8 @@ function ProfileDetail() {
         {/* FixMe 'Reaname to main to header' */}
         <Main />   
         {/* <CustomerDetails /> */}
-        {/* <Alert /> */}
-        <LoginSection />
+        <Alert />
+        {/* <LoginSection /> */}
       </div>    
      </DefaultLayout>
   );

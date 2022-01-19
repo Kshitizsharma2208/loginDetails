@@ -27,70 +27,70 @@ const CustomerDetails =  () => {
                        <option value="2">Transaction</option>
                       </select>
                     </div>                
-              </div>
-             
-              {/* <div className="insuranceHistory">
-                  <ul className="generatedInsurance">
-                      <img className='progressBarImg' src={progressbarIcon} alt="" />
-                      <li className='listOfinsurance'>
-                          <div className="progressBar">
-                          <p className="textQuote">Lead Generated: Health Insurance </p>
-                          </div>                          
-                          <p className='dateOfInsurance '>06 August 2020</p>
-                      </li>
-                      
-                      <li className='listOfinsurance'>
-                         <p className="textQuote">Quote Generated: Health Insurance </p> 
-                          <p className='dateOfInsurance '>14 August 2020</p>
-                      </li>
-                      <li className='listOfinsurance active'>
-                         <p className="textQuote">Proposal Generated: Travel Insurance </p> 
-                          <p className='dateOfInsurance '>15 August 2020</p>
-                      </li>
-                      <li className='listOfinsurance'>
-                         <p className="textQuote">Proposal forwarded to RM: Travel Insurance </p> 
-                          <p className='dateOfInsurance '>26 August 2020</p>
-                      </li>
-                      <li className='listOfinsurance'>
-                         <p className="textQuote">Payment Initiated: Health Insurance </p> 
-                          <p className='dateOfInsurance '>28 August 2020</p>
-                      </li>
-                      <li className='listOfinsurance'>
-                         <p className="textQuote">Lead Status Updated: Health Insurance </p> 
-                          <p className='dateOfInsurance '>31 August 2020</p>
-                      </li>
-                  </ul>
-              </div>              */}
+              </div>            
+              <div class="container_">
+                <div class="rightbox">
+                <div class="rb-container">
+                    <ul class="rb">
+                    <li class="rb-item">
+                        <div class="timestamp">
+                        <p className="textQuote">Lead Generated: Health Insurance </p>
+                        </div>
+                        <div class="item-title"><p className='dateOfInsurance '>06 August 2020</p></div>
 
-             <div id="timeline-container">
-             <div class="inner-container">
-                <ul class="timeline">
-                <li class="timeline-item"> <p className="textQuote">Lead Generated: Health Insurance </p>
-                <p className='dateOfInsurance '>06 August 2020</p>
-                </li>
-                <li class="timeline-item">
-                <p className="textQuote">Quote Generated: Health Insurance </p> 
-                <p className='dateOfInsurance '>14 August 2020</p>
-                </li>
-                <li class="timeline-item active">
-                <p className="textQuote">Proposal Generated: Travel Insurance </p> 
-                <p className='dateOfInsurance '>15 August 2020</p>
-                </li>
-                <li class="timeline-item">
-                <p className="textQuote">Proposal forwarded to RM: Travel Insurance </p> 
-                <p className='dateOfInsurance '>26 August 2020</p>
-                </li>
-                <li class="timeline-item">
-                <p className="textQuote">Payment Initiated: Health Insurance </p> 
-                <p className='dateOfInsurance '>28 August 2020</p>
-                </li>
-                <li class="timeline-item">
-                <p className="textQuote">Lead Status Updated: Health Insurance </p> 
-                <p className='dateOfInsurance '>31 August 2020</p>
-                </li>
-                </ul>
-             </div>
-             </div>
+                    </li>
+                    <li class="rb-item">
+                        <div class="timestamp">
+                        <p className="textQuote">Quote Generated: Health Insurance </p> 
+                        </div>
+                        <div class="item-title">
+                        <p className='dateOfInsurance '>14 August 2020</p>
+                        </div>
+
+                    </li>
+
+                    <li class="rb-item active" >
+                        <div class="timestamp">
+                        <p className="textQuote ">Proposal Generated: Travel Insurance </p> 
+                        </div>
+                        <div class="item-title">
+                        <p className='dateOfInsurance '>15 August 2020</p>
+                        </div>
+                    </li>
+
+                    <li class="rb-item" >
+                        <div class="timestamp">
+                        <p className="textQuote">Proposal forwarded to RM: Travel Insurance </p> 
+                        </div>
+                        <div class="item-title">
+                        <p className='dateOfInsurance '>26 August 2020</p>
+                        </div>
+                    </li>
+
+                    <li class="rb-item" >
+                        <div class="timestamp">
+                        <p className="textQuote">Payment Initiated: Health Insurance </p> 
+                        </div>
+                        <div class="item-title">
+                        <p className='dateOfInsurance '>28 August 2020</p>
+                        </div>
+                    </li>
+
+                    <li class="rb-item" >
+                        <div class="timestamp">
+                        <p className="textQuote">Lead Status Updated: Health Insurance </p> 
+                        </div>
+                        <div class="item-title">
+                        <p className='dateOfInsurance '>31 August 2020</p>
+                        </div>
+                    </li>
+
+                    </ul>
+
+                </div>
+                </div>
+                </div>
+
             </div>
             
             <div className="right">
