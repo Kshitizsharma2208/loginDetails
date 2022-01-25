@@ -23,6 +23,8 @@ function App() {
       <Link to="/about">About</Link>
       <Link to="/profile">profile</Link>
       <Link to="/fruitCorner">fruitsCorner</Link>
+      <Link to="/Calc">calc</Link>
+
 
     </div>
   );

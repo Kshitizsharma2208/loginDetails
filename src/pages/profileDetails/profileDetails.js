@@ -17,7 +17,7 @@ function ProfileDetail() {
         <Main />   
         {/* <CustomerDetails /> */}
         <Alert />
-        {/* <LoginSection /> */}
+        <LoginSection />
       </div>    
      </DefaultLayout>
   );

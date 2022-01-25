@@ -42,7 +42,8 @@ export default function sidebar() {
             <div className="sidebarImgBox">
             <img className="sidebarImg" src={payment} alt="" />
             </div>
-            <a className="sidebarText" href="">Payments</a>
+            <Link className="sidebarText" to="/Calc">Calculator</Link>
+            {/* <a className="sidebarText" href="">Payments</a> */}
           </li>
 
           <li className="sidebarList"> 

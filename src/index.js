@@ -34,6 +34,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Calc from './pages/Calc/Calc';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -43,6 +44,7 @@ ReactDOM.render(
         <Route path="profile" element={<ProfileDetail />} />
         <Route path="fruitCorner" element={<FruitsCorner />} />
         <Route path="about" element={<About />} />
+        <Route path="Calc" element={<Calc />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
