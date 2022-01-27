@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  *:focus,
+  *:hover {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  body {
+    box-sizing: border-box;
+    // font-family: $font-family;
+    font-weight: 400;
+    // background: $color-white;
+    font-size: 18px;
+  }
+.Header {
+  padding: 112px 88px;
+
+  .introduction {
+    display: flex;
+
+    .contentIntro {
+
+        .heading {
+
+           .introContent {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: left;
+            padding-top: 15px;
+
+           }
+
+           .introHead {
+            font-family: Poppins;
+            font-size: 47px;
+            font-style: normal;
+            font-weight: 800;
+            text-align: left;
+            color:  #43DDE6;
+
+           }
+        }
+    }
+    
+    
+  }
+}
+.introductiveVideo {
+ 
+}
+.buttonIntro {
+  border-radius: 0px;
+  padding-top: 20px;
+
+  .learnmore {
+    height: 53px;
+   width: 182px;
+  border-radius: 35px;
+  background-color:  #43DDE6;
+  color: #051745;
+  font-weight: 600;
+  border: none; 
+  }
+}
+.headerBottom {
+  background:url(../../asserts/images/white.png) no-repeat no-repeat;
+  height: 877.0091552734375px;
+  width: 1596.8221435546875px;
+  left: -150px;
+  top: 699px;
+  border-radius: 0px;
+  // display: flex;
+
+   
+  
+  .bottomAbove {
+    display: flex;
+    padding-top: 119px;
+    
+  }
+ 
+  .bottomBottom {
+    display: flex;
+  }
+
+  .leftGrades, .rightGrades {
+    padding-top: 150px;
+    padding-left: 250px;
+  
+    .leftgradePoint {
+   
+      .point {  
+        font-family: Poppins;
+      font-size: 102px;
+      font-style: normal;
+      font-weight: 900;
+      color: #43DDE6;
+
+      }
+      .red {
+        color: #FC5185;
+      }
+
+      .textgrade {
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        color: #FFFFFF;
+        
+      }
+  
+    }
+  }
+}
+.middleContainer {
+  background-image: url(../../asserts/images/gradient.png);
+  height: 755px;
+  width: 1364px;
+  left: 2px;
+  top: 1459px;
+  border-radius: 0px;
+
+}
+
+#bottom_ {
+  padding-top: 38px;
+}
+.section {
+  background-image: url(../../asserts/images/bg.png);
+  height: 4615px;
+  left: 0px;
+  border-radius: 0px;
+
+   .menucard {
+      color: red;
+     
+
+        .headng {
+
+        }
+     }
+     .cards {
+       padding-left: 57px;
+
+     }
+  }
+  
+
+.headng {
+  padding: 315px 113px; 
+
+  .menutextHead {
+    font-family: Poppins;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #051745;
+    
+
+  }
+}
+.menuHeading {
+  display: flex;
+}
+.section2 {
+  display: flex;
+}
+.sectionInner {
+  display: flex;
+}
+
+.createrEconomy {
+  height: 594px;
+  width: 1179px;
+  left: 94px;
+  top: 3226px;
+  border-radius: 23px;
+  background: #051745;
+  box-shadow: 11px 12px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+}
+
+.imgPic {
+  padding-top: 42px;
+  padding-left: 89px;
+  height: 315px;
+  width: 315px;
+}
+
+.pictureText {
+  padding: 116px;
+    
+  .pichead {
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: #43DDE6;
+
+  }
+  .picText {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color:  #FFFFFF;
+    padding-top: 10px;
+
+  }
+}
+.innerCreater {
+  display: flex;
+}
+
+.bottomCreater {
+  display: flex;
+
+  .steps {
+    display: flex;
+  
+    .imgStep1 {
+      padding-left: 69px;
+    }
+  }
+}
+
+.bottomStep1 {
+  padding-left: 55.28px;
+}
+
+.step1Text {
+  padding-left: 40px;
+
+  .textStep1 {
+    font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #43DDE6;
+
+  }
+}
+.connector {
+  position: absolute;
+  width: 37px;
+  height: 190px;
+  left: 665px;
+  background-image: url(../../asserts/images/connector1.png);
+}
+.learn {
+  // padding-top:152px; 
+    width: 1179px;
+    border-radius: 23px;
+    background: #43DDE6;
+    box-shadow: 11px 12px 16px rgb(0 0 0 / 10%);
+    border-radius: 23px;
+    margin-top: 191px;
+}
+.earncolor {
+  font-family: Poppins;
+    font-size: 43px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+  color: #FFFFFF;
+
+}
+
+.textColor {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #051745;
+
+  padding-top: 10px;
+}
+
+.Metaverse {
+    width: 1179px;
+    border-radius: 23px;
+    background: #43DDE6;
+    box-shadow: 11px 12px 16px rgb(0 0 0 / 10%);
+    border-radius: 23px;
+    margin-top: 191px;
+}
+
+.blockChain {
+  width: 1179px;
+  left: 94px;
+  top: 3226px;
+  border-radius: 23px;
+  background: #051745;
+  box-shadow: 11px 12px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+}
+
+.bottomImg {
+  padding-left: 526px;
+  
+}
+.childernText {
+  display: flex;
+  justify-content: center;
+
+  .childernBenefitText {
+    font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #051745;
+  padding-top: 46px;
+ background-color: white;
+  
+  }
+}
+.childernProgress {
+  padding: 46px 300px;
+}
+.chainComments {
+  display: flex;
+   
+  .comment1 {
+   padding-left: 123px;
+  }
+
+  .comment {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 62px;
+    color: black;
+  }
+}
+.fotterImg {
+  width: 1541px;
+  height: 852px;
+  left: -87px;
+  top: 7718px;
+}
+.footer {
+  background-image: url(../../asserts/images/bg_footer.png);
+  height: 767.9998779296903px;
+width: 1550.0001220703184px;
+left: nullpx;
+top: nullpx;
+border-radius: 0px;
+
+}
+.bottomEnd {
+  font-family: Poppins;
+font-size: 49px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0.02em;
+// padding: 227px 212px;
+color: #FFFFFF;;
+}
+.footerBottom {
+  padding-top: 227px;
+  justify-content: center;
+  padding-left: 212px;
+
+  .End {
+    // padding-left: 212px;
+    font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #43DDE6;
+  padding-top: 46px;
+  }
+}
